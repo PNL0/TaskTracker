@@ -19,11 +19,6 @@ To add a new task, use the `add` command followed by the task description.
 add "Buy groceries"
 ```
 
-**Output:**
-```
-Task added successfully (ID: 1)
-```
-
 ### 2. Updating a task
 To update an existing task, use the `update` command with the task ID and the new task description.
 
