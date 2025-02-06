@@ -155,9 +155,9 @@ public class TaskTracker {
         for (int i = 0; i < size; i++) {
             Task task = taskList.get(i);
             if(task.getStatus().equals(status))
-                System.out.println(task.getId() + " - " + task.getDescription());
+                System.out.println("ID: " + task.getId() + ", Description: \"" + task.getDescription() + "\", Status: " + task.getStatus());
             else if(status.equals("all"))
-               System.out.println(task.getId() + " - " + task.getDescription());
+                System.out.println("ID: " + task.getId() + ", Description: \"" + task.getDescription() + "\", Status: " + task.getStatus());
         }  
     }
 }
